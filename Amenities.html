@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel About Section</title>
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+
+    <section class="head">
+        <div class="container1 flex1 flex12">
+            <div class="scoial">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-youtube"> </i>
+            </div>
+            <div class="logod">
+                <img src="logo.png" style="height: 50px; color: aliceblue;" alt="cvbghnjmdxcfvgbhnjmk" />
+            </div>
+            <div class="address">
+                <i class="fas fa-map-marker-alt" ></i>
+                
+                <span>205 Fida Walinton, Tongo Street Front, USA</span>
+            </div>
+        </div>
+    </section>
+
+    <header class="header">
+        <div class="container">
+            <nav class="navbar flex1">
+                <div class="sticky_logo logo">
+                    <img src="image/logo.png" alt="" />
+                </div>
+
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html" >about</a></li>
+                    <li><a href="Amenities.html" style="text-decoration: underline; text-underline-offset: 10px;  text-decoration-thickness:2px ;">Amenities</a></li>
+                    <!-- <li><a href="#room">room</a></li> -->
+                    <li><a href="gallary.html" >gallary</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+
+                <div class="head_contact">
+                    <!-- <i class="fas fa-phone-volume"></i> -->
+                    <!-- <span>+91 9833113472</span> -->
+                    <img src="logo.png" alt="" />
+
+                </div>
+            </nav>
+        </div>
+    </header>
+    <script>
+        const hamburger = document.querySelector(".hamburger");
+        const navMenu = document.querySelector(".nav-menu");
+
+        hamburger.addEventListener("click", mobliemmenu);
+
+        function mobliemmenu() {
+            hamburger.classList.toggle("active");
+            navMenu.classList.toggle("active");
+        }
+
+        window.addEventListener("scroll", function () {
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        });
+    </script>
+
+
+
+<div class="about-image-container">
+    <img src="img3_1.webp" alt="Background Image">
+    <div class="text">
+        <h1>Amenities</h1>
+        <p class="breadcrumb">
+            <a href="index.html">Home</a> &gt; Amenities
+        </p>
+    </div>
+</div>
+
+
+
+
+
+
+<section class="main-grid-contaniner" style="background-color: white;">
+    <div class="grid-container" style="background-color: white">
+
+
+
+
+
+
+        <div class="grid-item Row1">
+            <img src="feature2-1[1].webp" alt="Restaurant">
+        </div>
+        <div class="grid-item grid-content Row1">
+            <!-- <h5>DISCOVER</h5> -->
+            <h2>The Restaurant</h2>
+            <p>With the largest fleet of luxury catamarans, sailing, and motor yachts in Santorini, we guarantee the
+                ultimate sailing experience! With the largest fleet of luxury catamarans, sailing, and motor yachts
+                in Santorini, we guarantee the
+                ultimate sailing experience! With the largest fleet of luxury catamarans, sailing, and motor yachts
+                in Santorini, we guarantee the
+                ultimate sailing experience!</p>
+            <a href="#" class="btn-read">READ MORE</a>
+        </div>
+
+        <div class="grid-item grid-content for-tab">
+            <!-- <h5>DISCOVER</h5> -->
+            <h2>The Restaurant</h2>
+            <p>123With the largest fleet of luxury catamarans, sailing, and motor yachts in Santorini, we guarantee
+                the ultimate sailing experience!</p>
+            <a href="#" class="btn-read">READ MORE</a>
+        </div>
+        <div class="grid-item for-tab">
+            <img src="feature2-1[1].webp" alt="Spa Center">
+        </div>
+
+
+
+        <!-- Row 2 -->
+        <div class="grid-item grid-content">
+            <!-- <h5>EXPERIENCE</h5> -->
+            <h2>Spa Center</h2>
+            <p>With the largest fleet of luxury catamarans, sailing, and motor yachts in Santorini, we guarantee the
+                ultimate sailing experience! With the largest fleet of luxury catamarans, sailing, and motor yachts
+                in Santorini, we guarantee the
+                ultimate sailing experience! With the largest fleet of luxury catamarans, sailing, and motor yachts
+                in Santorini, we guarantee the
+                ultimate sailing experience!</p>
+            <a href="#" class="btn-read">READ MORE</a>
+        </div>
+        <div class="grid-item">
+            <img src="feature2-2.webp" alt="Spa Center">
+        </div>
+
+        <!-- Row 3 -->
+        <div class="grid-item Row3">
+            <img src="feature2-3.webp" alt="Fitness Center">
+        </div>
+        <div class="grid-item grid-content Row3">
+            <!-- <h5>MODERN</h5> -->
+            <h2>Fitness Center</h2>
+            <p>With the largest fleet of luxury catamarans, sailing, and motor yachts in Santorini, we guarantee the
+                ultimate sailing experience! With the largest fleet of luxury catamarans, sailing, and motor yachts
+                in Santorini, we guarantee the
+                ultimate sailing experience! With the largest fleet of luxury catamarans, sailing, and motor yachts
+                in Santorini, we guarantee the
+                ultimate sailing experience!</p>
+            <a href="#" class="btn-read">READ MORE</a>
+        </div>
+
+
+        <div class="grid-item grid-content for-tab3">
+            <!-- <h5>MODERN</h5> -->
+            <h2>Fitness Center</h2>
+            <p>With the largest fleet of luxury catamarans, sailing, and motor yachts in Santorini, we guarantee the
+                ultimate sailing experience! With the largest fleet of luxury catamarans, sailing, and motor yachts
+                in Santorini, we guarantee the
+                ultimate sailing experience! With the largest fleet of luxury catamarans, sailing, and motor yachts
+                in Santorini, we guarantee the
+                ultimate sailing experience!</p>
+            <a href="#" class="btn-read">READ MORE</a>
+        </div>
+        <div class="grid-item for-tab3">
+            <img src="feature2-3.webp" alt="Fitness Center">
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
+
+        <!-- Row 2 -->
+        <div class="grid-item grid-content">
+            <!-- <h5>EXPERIENCE</h5> -->
+            <h2>Spa Center</h2>
+            <p>With the largest fleet of luxury catamarans, sailing, and motor yachts in Santorini, we guarantee the
+                ultimate sailing experience! With the largest fleet of luxury catamarans, sailing, and motor yachts
+                in Santorini, we guarantee the
+                ultimate sailing experience! With the largest fleet of luxury catamarans, sailing, and motor yachts
+                in Santorini, we guarantee the
+                ultimate sailing experience!</p>
+            <a href="#" class="btn-read">READ MORE</a>
+        </div>
+        <div class="grid-item">
+            <img src="feature2-2.webp" alt="Spa Center">
+        </div>
+
+        <!-- Row 3 -->
+        <div class="grid-item Row3">
+            <img src="feature2-3.webp" alt="Fitness Center">
+        </div>
+        <div class="grid-item grid-content Row3">
+            <!-- <h5>MODERN</h5> -->
+            <h2>Fitness Center</h2>
+            <p>With the largest fleet of luxury catamarans, sailing, and motor yachts in Santorini, we guarantee the
+                ultimate sailing experience! With the largest fleet of luxury catamarans, sailing, and motor yachts
+                in Santorini, we guarantee the
+                ultimate sailing experience! With the largest fleet of luxury catamarans, sailing, and motor yachts
+                in Santorini, we guarantee the
+                ultimate sailing experience!</p>
+            <a href="#" class="btn-read">READ MORE</a>
+        </div>
+
+
+        <div class="grid-item grid-content for-tab3">
+            <!-- <h5>MODERN</h5> -->
+            <h2>Fitness Center</h2>
+            <p>With the largest fleet of luxury catamarans, sailing, and motor yachts in Santorini, we guarantee the
+                ultimate sailing experience! With the largest fleet of luxury catamarans, sailing, and motor yachts
+                in Santorini, we guarantee the
+                ultimate sailing experience! With the largest fleet of luxury catamarans, sailing, and motor yachts
+                in Santorini, we guarantee the
+                ultimate sailing experience!</p>
+            <a href="#" class="btn-read">READ MORE</a>
+        </div>
+        <div class="grid-item for-tab3">
+            <img src="feature2-3.webp" alt="Fitness Center">
+        </div>
+
+        <div class="grid-item grid-content">
+            <!-- <h5>EXPERIENCE</h5> -->
+            <h2>Spa Center</h2>
+            <p>With the largest fleet of luxury catamarans, sailing, and motor yachts in Santorini, we guarantee the
+                ultimate sailing experience! With the largest fleet of luxury catamarans, sailing, and motor yachts
+                in Santorini, we guarantee the
+                ultimate sailing experience! With the largest fleet of luxury catamarans, sailing, and motor yachts
+                in Santorini, we guarantee the
+                ultimate sailing experience!</p>
+            <a href="#" class="btn-read">READ MORE</a>
+        </div>
+        <div class="grid-item">
+            <img src="feature2-2.webp" alt="Spa Center">
+        </div>
+
+        
+
+        
+    </div>
+
+
+</section>
+
+   
+<footer class="footer" style="margin-top: 0% !important;">
+    <div class="containerlast">
+        <!-- Hotel Location Section -->
+        <div>
+            <h4>Bungalows  Location </h4>
+            <h5 style="font-size: 15px; color:#CC8C18;">Booking and Selling Address :-</h5>
+            <p>M/S. Infinity Buildstruct  <br>
+
+                Akshar Business Park
+                Z Wing Office Number 1123,
+                Sector 25, Vashi, Navi Mumbai, Maharashtra 400703</p>
+            
+
+            <h5 style="font-size: 15px; color:#CC8C18;">Bungalows Address :-</h5>
+            <p>PROPOSED RESIDENTIAL BUNGALOWS 
+
+                At Village KOTIMBE,Tal- KARJAT, Dist RAIGAD</p>
+            
+            
+         
+            
+        </div>
+
+        <!-- More Links Section -->
+        <div>
+            <h4>More Links</h4>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Our Office</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+                <div class="contact-info">
+                    <i class="fas fa-envelope"></i>
+                    <p  style="margin-bottom: 0% !important;">hotelambassadorplaza@gmail.com</p>
+                </div>
+                <div class="contact-info">
+                    <i class="fas fa-phone"></i>
+                    <p style="margin-bottom: 0% !important;"> +91 9545785974</p>
+                </div>
+              
+            </ul>
+        </div>
+
+        <!-- Newsletter Section -->
+        <div>
+            <h4>Newsletter</h4>
+            <div class="newsletter">
+                <input type="email" placeholder="Enter Your Email Here" />
+                <button>Subscribe</button>
+            </div>
+            <h4 style="margin-top: 10px;">Stay Connected</h4>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-google"></i></a>
+                <a href="#"><i class="fab fa-vimeo"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+    
+
+
+</body>
+
+</html>
